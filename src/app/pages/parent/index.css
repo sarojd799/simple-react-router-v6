@@ -1,0 +1,44 @@
+
+.parent-component {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.left-panel {
+    min-width: 20vw;
+    height: 100%;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right:0.065rem solid lightgray;
+}
+.left-panel button {
+    border:none;
+    background-color: dodgerblue;
+    outline: none;
+    margin-top: 0.5rem;
+    padding:1rem 0.5rem;
+    min-width: 12rem;
+    font-size: 0.9rem;
+}
+.left-panel button:hover {
+    background-color: #1474d1;
+}
+
+.left-panel a,
+.left-panel a button {
+    color: #fff;
+    letter-spacing: 0.065rem;
+    text-decoration: none;
+}
+
+.parent-component .right-panel {
+    padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80vw;
+}
